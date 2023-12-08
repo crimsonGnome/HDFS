@@ -1,0 +1,5 @@
+# 
+
+https://intellipaat.com/blog/tutorial/big-data-and-hadoop-tutorial/hadoop-mapreduce-cheat-sheet/
+
+#
