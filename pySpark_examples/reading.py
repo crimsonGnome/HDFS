@@ -1,3 +1,5 @@
+import pyspark
+
 from pyspark.sql import SparkSession
 from pyspark.sql.types import StructType, StructField, StringType, FloatType
 
@@ -8,11 +10,11 @@ spark = SparkSession.builder.appName("example").getOrCreate()
 schema = StructType([
     StructField("StudentID", StringType(), True),
     StructField("CourseCode", StringType(), True),
-    StructField("Grade", FloatType(), True),
+    StructField("Grade", StringType(), True),
 ])
 
 # Read data from a text file into a DataFrame
-file_path = "/home/crimsongnome/Desktop/HDFS_Map_Reduce/HDFS_examples"
+file_path = "../HDFS_examples/Course.txt"
 df = spark.read \
     .text(file_path) \
     .rdd \
