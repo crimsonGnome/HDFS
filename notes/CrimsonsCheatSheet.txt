@@ -1,0 +1,1 @@
+# hadoop jar $HADOOP_HOME/share/hadoop/tools/lib/hadoop-streaming-*.jar -files /home/crimsongnome/Desktop/HDFS/inClassClient.py -mapper "python3 inClassClient.py -r hadoop --mapper" -reducer "python3 inClassClient.py -r hadoop --reducer" -input /user/hadoopusr/testdata/Course.txt -input /user/hadoopusr/testdata/student.txt -output /output
