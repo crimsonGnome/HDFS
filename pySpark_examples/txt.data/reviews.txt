@@ -1,0 +1,10 @@
+101,5,Excellent product, highly recommended!
+102,4,Good value for the price.
+103,3,Average product, could be better.
+104,5,Outstanding quality, exceeded my expectations.
+105,2,Not satisfied with the product, poor quality.
+106,4,Great purchase, worth every penny.
+107,1,Terrible product, do not buy!
+108,5,Amazing product, love it!
+109,3,Decent product, meets my needs.
+110,4,Very good, I'm happy with the purchase.
